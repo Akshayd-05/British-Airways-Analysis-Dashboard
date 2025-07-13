@@ -23,7 +23,7 @@ The goal is to identify key factors affecting customer satisfaction, monitor tre
 | Aircraft               | Aircraft type (e.g., Boeing 747-400)|
 | Traveller Type         | Type of traveler (Business, Leisure)|
 | Seat Type              | Class of travel (Economy, Business) |
-| Country                | Reviewer’s country                   |
+| Place                | Reviewer’s country                   |
 | Overall Rating         | Overall rating given by the user    |
 | Cabin Staff Service    | Cabin crew service rating           |
 | Food & Beverages       | Food and drink rating               |
@@ -33,6 +33,22 @@ The goal is to identify key factors affecting customer satisfaction, monitor tre
 | Value for Money        | Value for money rating              |
 
 ---
+
+### 2️⃣ Countries.csv
+
+**File:**  
+`Countries.csv`
+
+| Column Name | Description                        |
+|-------------|------------------------------------|
+| Country     | Country name                       |
+| Code        | ISO Alpha-3 country code           |
+| Continent   | Continent of the country           |
+| Region      | Region classification of country   |
+
+**Purpose:**  
+This dataset is linked via the **Country** in Countries table to **Place** in british_airways_reviews table to enrich the dashboard with continent and region-based filters and maps.
+
 
 ## 📈 Dashboard Highlights
 
