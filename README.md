@@ -1,7 +1,5 @@
 # British Airways Review Dashboard
 
-# British Airways Review Dashboard
-
 ![Dashboard Screenshot](images/dashboard_screenshot.png)
 
 ## 📊 Project Overview
